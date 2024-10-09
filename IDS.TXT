@@ -1,4 +1,4 @@
-﻿# Ideographic Description Sequences (IDS) for CJK Unified Ideographs
+# Ideographic Description Sequences (IDS) for CJK Unified Ideographs
 # URL: <https://babelstone.co.uk/CJK/IDS.TXT>
 # File Encoding: UTF-8 with BOM and CR/LF
 # Maintained by: Andrew West (魏安) <babelstone@gmail.com>
