@@ -1,3 +1,14 @@
+# IDS Database
+
+This repository holds an IDS database based on the BabelStone IDS database.
+
+A few helper scripts are also included in this repository.
+They allow to check for completeness and consistency of the database.
+
+Only a few minor changes to the original database were introduced by myself (Omar L.),
+to allow integration with my [HanCharTools](https://github.com/omulh/HanCharTools).
+The vast mayority of the work on the database itself should be attributed to Andrew West (魏安).
+
 ## BabelStone IDS Database
 
 The BabelStone IDS database is a plain text listing (encoded as UTF-8) of Ideographic Description Sequences (IDS)
