@@ -1,6 +1,7 @@
-The BabelStone IDS database is a plain text listing (encoded as UTF-8) of Ideographic Description Sequences (IDS) for
-all encoded CJK Unified Ideographs. The original file is maintained by Andrew West (魏安) (babelstone@gmail.com), to
-whom any corrections should be directed. The original file can be downloaded from: https://www.babelstone.co.uk/CJK/IDS.TXT
+## BabelStone IDS Database
+
+The BabelStone IDS database is a plain text listing (encoded as UTF-8) of Ideographic Description Sequences (IDS)
+for all encoded CJK Unified Ideographs. The original file can be downloaded [here](https://www.babelstone.co.uk/CJK/IDS.TXT).
 
 Under U.S. copyright law, data (i.e. a collection of facts) is not eligible to copyright protection (see
 <https://sco.library.emory.edu/research-data-management/publishing/copyright-data.html>), and as IDS descriptions
@@ -10,3 +11,32 @@ Therefore, anyone is free to make use of the IDS data provided in this file for 
 without asking permission or providing attribution. I furthermore waive any copyright claims to the presentation
 format of the IDS data used in this file, so anyone is free to fork the file, or use it as the basis for a new
 IDS data set.
+
+## Helper scripts
+
+A few bash helper scripts are also included in this repository, for which the following license applies.
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>
