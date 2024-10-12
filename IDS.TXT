@@ -98085,7 +98085,7 @@ U+2EAD	⺭	^礻$()	*U+2EAD=U+793B
 U+2EAE	⺮	^𥫗$()	*U+2EAE=U+25AD7
 U+2EAF	⺯	^⺯$()	*U+2EAF=U+7CF9(G)
 U+2EB0	⺰	^纟$()	*U+2EB0=U+7E9F
-U+2EB1	⺱	^罓$()	*U+2EB1>U+7F53
+U+2EB1	⺱	^罓$()	*U+2EB1=U+7F53
 U+2EB2	⺲	^⺲$()
 U+2EB3	⺳	^㓁$()	*U+2EB3=U+34C1
 U+2EB4	⺴	^⺴$()
