@@ -3921,7 +3921,7 @@ U+5C0C	尌	^⿰壴寸$(GHTJKP)
 U+5C0D	對	^⿰⿱业𦍌寸$(GHTJKPV)
 U+5C0E	導	^⿱道寸$(GHTJKPV)
 U+5C0F	小	^⿲㇒亅丶$(GHTJKPV)
-U+5C10	尐	^⿱𡭔㇝$(G)	^⿱小乁$(H)	^⿱𡭔乁$(T)	^⿱小乀$(K)
+U+5C10	尐	^⿱𡭔乁$(G)	^⿱小乁$(H)	^⿱𡭔乁$(T)	^⿱小乀$(K)
 U+5C11	少	^⿱𡭔㇒$(GTP)	^⿱小㇒$(HJKV)
 U+5C12	尒	^⿱𠆢小$(GHTJK)	^⿱入小$(P)	*U+5C12(P)=U+21B57
 U+5C13	尓	^⿱𠂉小$(GHTJK)
@@ -17143,7 +17143,7 @@ U+8FB2	農	^⿱曲辰$(GHTJKPV)
 U+8FB3	辳	^⿱林辰$(GHTP)
 U+8FB4	辴	^⿰單辰$(GHTJKP)
 U+8FB5	辵	^⿱彡龰$(GHTJKP)
-U+8FB6	辶	^⿳丶𠃍㇝$(G)	^⿳⺀𠃍㇝$(JKPV)	^⿳丶㇋乀$(HT)
+U+8FB6	辶	^⿳丶𠃍乁$(G)	^⿳⺀𠃍乁$(JKPV)	^⿳丶㇋乀$(HT)
 U+8FB7	辷	^⿺辶一$(GHTJK)
 U+8FB8	辸	^⿺辶乃$(GHTJ)
 U+8FB9	边	^⿺辶力$(GHTP)
@@ -80883,7 +80883,7 @@ U+2CEFB	𬻻	^⿺𠃊主$(J)
 U+2CEFC	𬻼	^⿰㇯{18}一㇯艮一$(S)
 U+2CEFD	𬻽	^⿰主买$(G)
 U+2CEFE	𬻾	^⿰主追$(G)
-U+2CEFF	𬻿	^⿱丶㇝$(J)
+U+2CEFF	𬻿	^⿱丶乁$(J)
 U+2CF00	𬼀	^⿱丶㇒$(J)
 U+2CF01	𬼁	^⿰㇒𠄎$(J)
 U+2CF02	𬼂	^？$(J)
@@ -98112,8 +98112,8 @@ U+2EC8	⻈	^讠$()	*U+2EC8=U+8BA0
 U+2EC9	⻉	^贝$()	*U+2EC9=U+8D1D
 U+2ECA	⻊	^𧾷$()	*U+2ECA=U+27FB7
 U+2ECB	⻋	^车$()	*U+2ECB=U+8F66
-U+2ECC	⻌	^⿳丶𠃍㇝$()	*U+2ECC=U+8FB6(G)
-U+2ECD	⻍	^⿳⺀𠃍㇝$()	*U+2ECD=U+8FB6(JKPV)
+U+2ECC	⻌	^⿳丶𠃍乁$()	*U+2ECC=U+8FB6(G)
+U+2ECD	⻍	^⿳⺀𠃍乁$()	*U+2ECD=U+8FB6(JKPV)
 U+2ECE	⻎	^⿳丶㇋乀$()	*U+2ECE=U+8FB6(HT)
 U+2ECF	⻏	^阝$()	*U+2ECF>U+961D
 U+2ED0	⻐	^钅$()	*U+2ED0=U+9485
