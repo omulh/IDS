@@ -321,7 +321,7 @@
 #
 # CJK Unified Ideographs (20,992 characters)
 # 20,902 characters added in Unicode version 1.0.1 (June 1992)
-U+4E00	一	^一$(GHTJKPV)
+U+4E00	一	^㇐$(GHTJKPV)
 U+4E01	丁	^⿱一亅$(GHTJKPV)
 U+4E02	丂	^⿱一㇉$(GTJ)
 U+4E03	七	^〾⿻一乚$(GHJKPV)	^〾⿻一㇄$(T)
@@ -361,7 +361,7 @@ U+4E24	两	^⿱一⿻冂从$(GHTJKP)
 U+4E25	严	^⿱亚丿$(G)
 U+4E26	並	^⿱䒑业$(GHTJKP)
 U+4E27	丧	^⿱⿻土丷{25}$(G)
-U+4E28	丨	^丨$(GHTJKP)
+U+4E28	丨	^㇑$(GHTJKP)
 U+4E29	丩	^⿰𠄌丨$(GTJP)
 U+4E2A	个	^⿱𠆢丨$(GHTJKPV)
 U+4E2B	丫	^⿱丷丨$(GHTJKPV)
@@ -375,7 +375,7 @@ U+4E32	串	^⿻吕丨$(GHTJKPV)
 U+4E33	丳	^⿻吕⿰丿丨$(GHTKP)
 U+4E34	临	^⿲丨丨⿱⿱𠂉丶𫩏$(G)
 U+4E35	丵	^⿱业𢆉$(GTJP)
-U+4E36	丶	^丶$(GHTJKP)
+U+4E36	丶	^㇔$(GHTJKP)
 U+4E37	丷	^⿰丶㇒$(GHK)
 U+4E38	丸	^⿻九丶$(GJKPV[S][B])	^⿵九丶$(HT)
 U+4E39	丹	^⿻⿻⺆一丶$(GHTJKPV)
@@ -384,9 +384,9 @@ U+4E3B	主	^⿱丶王$(GHTJKPV)	^⿱亠土$(X)
 U+4E3C	丼	^⿴井丶$(GHTJKP)
 U+4E3D	丽	^⿱一⿰⿵冂丶⿵冂丶$(G[B])	^⿰⿱一⿵冂丶⿱一⿵冂丶$(HTP)
 U+4E3E	举	^⿱兴𰀁$(G)
-U+4E3F	丿	^丿$(GHTJKPV)
-U+4E40	乀	^乀$(GTJKP)
-U+4E41	乁	^乁$(GTJK)
+U+4E3F	丿	^㇓$(GHTJKPV)
+U+4E40	乀	^㇏$(GTJKP)
+U+4E41	乁	^㇝$(GTJK)
 U+4E42	乂	^⿻丿乀$(GHTJKPV)
 U+4E43	乃	^⿹𠄎丿$(GHTJKPV)
 U+4E44	乄	^⿻㇢丶$(GJ)
@@ -410,9 +410,9 @@ U+4E55	乕	^⿸𠂆⿻二巾$(GJ)
 U+4E56	乖	^⿻千北$(GHTJKPV)
 U+4E57	乗	^⿻禾龷$(GTJKP)
 U+4E58	乘	^⿻禾北$(GHTJKPV)
-U+4E59	乙	^乙$(GHTJKPV)
-U+4E5A	乚	^乚$(GHTJ)
-U+4E5B	乛	^乛$(GHK)
+U+4E59	乙	^㇠$(GHTJKPV)
+U+4E5A	乚	^㇟$(GHTJ)
+U+4E5B	乛	^㇖$(GHK)
 U+4E5C	乜	^⿻𠃌乚$(GHTJKP)
 U+4E5D	九	^⿻丿㇈$(GHTJKPV)
 U+4E5E	乞	^⿱𠂉乙$(GHTJKPV)
@@ -454,7 +454,7 @@ U+4E81	亁	^⿰⿱十旱乞$(GHT)
 U+4E82	亂	^⿰𤔔乚$(GHTJKPV)
 U+4E83	亃	^⿰粦乚$(GHTKP)
 U+4E84	亄	^⿰壹乚$(GHTKP)
-U+4E85	亅	^亅$(GHTJKP)
+U+4E85	亅	^㇚$(GHTJKP)
 U+4E86	了	^⿱乛亅$(GHTJKPV)
 U+4E87	亇	^⿱⿰㇒乛亅$(GHKPV)	^⿱𠂉亅$(T)	^⿱⿰㇒乛丨$(Z)
 U+4E88	予	^⿱龴𠄐$(GHTJKPV)
@@ -28136,14 +28136,14 @@ U+200C6	𠃆	^⿰𠂤釆$(T)
 U+200C7	𠃇	^⿻千皕$(G)
 U+200C8	𠃈	^⿰{6}⿳屮兀⿰⿱屮兀⿱屮兀$(G)
 U+200C9	𠃉	^⿰㇒乙$(GTP)
-U+200CA	𠃊	^𠃊$(GHV)
-U+200CB	𠃋	^𠃋$(GHT)
-U+200CC	𠃌	^𠃌$(GHV)
-U+200CD	𠃍	^𠃍$(HK)
-U+200CE	𠃎	^𠃎$(K)
+U+200CA	𠃊	^㇗$(GHV)
+U+200CB	𠃋	^㇜$(GHT)
+U+200CC	𠃌	^㇆$(GHV)
+U+200CD	𠃍	^㇕$(HK)
+U+200CE	𠃎	^㇘$(K)
 U+200CF	𠃏	^⿰𠄌乚$(GT)
 U+200D0	𠃐	^⿰乙乙$(GT)
-U+200D1	𠃑	^𠃑$(HT)
+U+200D1	𠃑	^㇞$(HT)
 U+200D2	𠃒	^⿻𠃊十$([G])	^⿻㇄十$(T)
 U+200D3	𠃓	^⿹𠄎⿰丿丿$(GVU)
 U+200D4	𠃔	^⿰𠂈乚$(TV)
@@ -28202,9 +28202,9 @@ U+20108	𠄈	^⿰粦⿱乙乙$(GT)
 U+20109	𠄉	^⿺乳重$(GT)
 U+2010A	𠄊	^⿰⿳⿻十昍日丂乞$(GT)
 U+2010B	𠄋	^⿰⿳⿻工昍日丂乞$(GT)
-U+2010C	𠄌	^𠄌$(GHT)
+U+2010C	𠄌	^㇙$(GHT)
 U+2010D	𠄍	^⿰𠄌亅$(GT)
-U+2010E	𠄎	^𠄎$(GHT)
+U+2010E	𠄎	^㇡$(GHT)
 U+2010F	𠄏	^⿿了$(GTP)
 U+20110	𠄐	^⿱乛亅$(K)
 U+20111	𠄑	^⿰𠄌⿺乚亅$(GT)
@@ -36102,7 +36102,7 @@ U+21FE4	𡿤	^⿰⿳⿱卝八日𡉀⿳山口⿱山口$(G)
 U+21FE5	𡿥	^⿰山鬱$(GTP)
 U+21FE6	𡿦	^⿱⿲㇒㇒㇒⿲丶丶丶$(G)
 U+21FE7	𡿧	^⿻巛一$(GT)
-U+21FE8	𡿨	^𡿨$(GHT)
+U+21FE8	𡿨	^㇛$(GHT)
 U+21FE9	𡿩	^⿱巛𠔼$(GT)
 U+21FEA	𡿪	^⿱巛夕$(GTV)
 U+21FEB	𡿫	^⿱亡川$(T)
@@ -98159,7 +98159,7 @@ U+31C2	㇂	^㇂$()
 U+31C3	㇃	^㇃$()
 U+31C4	㇄	^㇄$()
 U+31C5	㇅	^㇅$()
-U+31C6	㇆	^𠃌$()	*U+31C6=U+200CC
+U+31C6	㇆	^㇆$()	*U+31C6=U+200CC
 U+31C7	㇇	^㇇$()
 U+31C8	㇈	^㇈$()
 U+31C9	㇉	^㇉$()
@@ -98168,25 +98168,25 @@ U+31CB	㇋	^㇋$()
 U+31CC	㇌	^㇌$()
 U+31CD	㇍	^㇍$()
 U+31CE	㇎	^㇎$()
-U+31CF	㇏	^乀$()	*U+31CF=U+4E40
-U+31D0	㇐	^一$()	*U+31D0=U+4E00
-U+31D1	㇑	^丨$()	*U+31D1=U+4E28
+U+31CF	㇏	^㇏$()	*U+31CF=U+4E40
+U+31D0	㇐	^㇐$()	*U+31D0=U+4E00
+U+31D1	㇑	^㇑$()	*U+31D1=U+4E28
 U+31D2	㇒	^㇒$()
-U+31D3	㇓	^丿$()	*U+31D3=U+4E3F
-U+31D4	㇔	^丶$()	*U+31D4=U+4E36
-U+31D5	㇕	^𠃍$()	*U+31D5=U+200CD
-U+31D6	㇖	^乛$()	*U+31D6=U+4E5B
-U+31D7	㇗	^𠃊$()	*U+31D7=U+200CA
-U+31D8	㇘	^𠃎$()	*U+31D8=U+200CE
-U+31D9	㇙	^𠄌$()	*U+31D9=U+2010C
-U+31DA	㇚	^亅$()	*U+31DA=U+4E85
-U+31DB	㇛	^𡿨$()	*U+31DB=U+21FE8
-U+31DC	㇜	^𠃋$()	*U+31DC=U+200CB
-U+31DD	㇝	^㇝$()
-U+31DE	㇞	^𠃑$()	*U+31DE=U+200D1
-U+31DF	㇟	^乚$()	*U+31DF=U+4E5A
-U+31E0	㇠	^乙$()	*U+31E0=U+4E59
-U+31E1	㇡	^𠄎$()	*U+31E1=U+2010E
+U+31D3	㇓	^㇓$()	*U+31D3=U+4E3F
+U+31D4	㇔	^㇔$()	*U+31D4=U+4E36
+U+31D5	㇕	^㇕$()	*U+31D5=U+200CD
+U+31D6	㇖	^㇖$()	*U+31D6=U+4E5B
+U+31D7	㇗	^㇗$()	*U+31D7=U+200CA
+U+31D8	㇘	^㇘$()	*U+31D8=U+200CE
+U+31D9	㇙	^㇙$()	*U+31D9=U+2010C
+U+31DA	㇚	^㇚$()	*U+31DA=U+4E85
+U+31DB	㇛	^㇛$()	*U+31DB=U+21FE8
+U+31DC	㇜	^㇜$()	*U+31DC=U+200CB
+U+31DD	㇝	^㇝$()	*U+31DD=U+4E41
+U+31DE	㇞	^㇞$()	*U+31DE=U+200D1
+U+31DF	㇟	^㇟$()	*U+31DF=U+4E5A
+U+31E0	㇠	^㇠$()	*U+31E0=U+4E59
+U+31E1	㇡	^㇡$()	*U+31E1=U+2010E
 U+31E2	㇢	^㇢$()
 U+31E3	㇣	^㇣$()
 # Unencoded CJK Ideographs and Ideographic Components (121 Characters)
