@@ -9,5 +9,10 @@ aliasCharacters=$(sed -n '/^[^\t]*\t.\t^[^？]\$/p' "$IDS_FILE")
 # Filter out lines where the composition is the same as the entry's character
 aliasCharacters=$(echo "$aliasCharacters" | sed -n '/^[^\t]*\t\(.\)\t^\1/! p')
 
-# Output the character of the filtered lines
-echo "$aliasCharacters" | sed "s/^[^\t]*\t//" | sed "s/^\(.\)\t^\(.\).*/\1 -> \2/"
+# Format and show the output
+while read line; do
+    aliasedCharAndNum=$(echo "$line" | sed 's/^\([^\t]*\)\t\(.\).*/\2(\1)/')
+    aliasChar=$(echo "$line" | sed 's/^[^\t]*\t.\t^//' | sed 's/\(.\).*/\1/')
+    aliasUnicodeNum=$(grep -P "\t$aliasChar\t" "$IDS_FILE" | sed 's/^\([^\t]*\)\t.*/\1/')
+    echo "$aliasedCharAndNum -> $aliasChar($aliasUnicodeNum)"
+done < <(echo "$aliasCharacters")
