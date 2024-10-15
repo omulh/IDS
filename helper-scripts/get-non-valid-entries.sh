@@ -25,6 +25,12 @@ while [[ -n $(echo "$allCompositions" | sed -n "/\t[^\t]*？[^\t]*\t/p") ]]; do
 done
 allCompositions=$(echo "$allCompositions" | sed "s/\t[^\t]*？[^\t]*$//")
 
-# Output the characters that are left with
+# Get the characters that are left with
 # no composition options after the removal
-echo "$allCompositions" | grep "^.$"
+nonValidChars=$(echo "$allCompositions" | grep "^.$")
+
+# Format and show the output
+while read char; do
+    entryLine=$(grep -P "\t$char\t" "$IDS_FILE")
+    echo "$entryLine" | sed 's/^[^\t]*\t//; s/\t[^\t]*\*.*//'
+done < <(echo "$nonValidChars")
