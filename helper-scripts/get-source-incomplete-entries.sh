@@ -1,5 +1,16 @@
 #! /bin/sh
 
+TESTED_LETTERS="$1"
+if [[ -z $TESTED_LETTERS ]]; then
+    echo "Aborting, no source letter provided" >&2
+    exit
+elif [[ -n $(echo "$TESTED_LETTERS" | sed 's/[GHMTJKPVUSB]//g') ]]; then
+    echo "Aborting, invalid source letters" >&2
+    exit
+else
+    TESTED_LETTERS=$(echo "$TESTED_LETTERS" | sed 's/./& /g')
+fi
+
 IDS_FILE='../IDS.TXT'
 
 # Extract all the compositions in the database.
@@ -30,8 +41,6 @@ allComponents=$(echo "$allComponents" | sed '/^$/d')
 # Remove the duplicates
 allComponents=$(echo "$allComponents" | LC_ALL=C sort -u)
 
-#testedLetters='G H M T J K P V U S B Y X Z'
-testedLetters='G'
 # For every character used as a component
 lineCount=$(echo "$allComponents" | wc -l)
 processCount=1
@@ -46,14 +55,15 @@ while read testedChar; do
         charEntryLetters=$(echo "$charEntry" | sed 's/[^^]*^//' | sed "s/\t\*.*//")
         charEntryLetters=$(echo "$charEntryLetters" | sed 's/[^A-Z]//g')
 
-        # For every tested letter
-        charLetters=''
+        # For every passed letter
         error=false
-        for testedLetter in $testedLetters; do
-            # Check if the char. is used in a composition that has that letter
+        missingLetters=''
+        for testedLetter in $TESTED_LETTERS; do
+            # If the char. is used in a composition that has that letter
             if [[ -n $(echo "$allCompositions" | grep -m 1 "$testedChar.*$testedLetter") ]]; then
-                charLetters+=$testedLetter
+                # Check if the letter is absent in the character's entry
                 if [[ $charEntryLetters != *"$testedLetter"* ]]; then
+                    missingLetters+="$testedLetter"
                     error=true
                 fi
             fi
@@ -62,9 +72,7 @@ while read testedChar; do
         # Output feedback if there was an error
         if [[ $error == true ]]; then
             [ -t 1 ] && echo -en "\r\033[0K"
-            echo -n "$testedChar "
-            echo -n "is used for: $charLetters "
-            echo "and defined for: $charEntryLetters"
+            echo -e "$testedChar is missing:\t$missingLetters"
         fi
     fi
     ((processCount++))
