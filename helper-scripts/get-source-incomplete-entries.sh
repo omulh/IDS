@@ -26,8 +26,6 @@ allCompositions=$(echo "$allCompositions" | sed "s/^[^^]*\t^/^/")
 allCompositions=$(echo "$allCompositions" | sed "s/\t/\n/g")
 allCompositions=$(echo "$allCompositions" | sed '/^$/d')
 
-# Remove non-compositions, i.e. compositions with only one character
-allCompositions=$(echo "$allCompositions" | sed '/^^.\$/d')
 # Remove non-CJK characters from the compositions, excepting the source letters
 allCompositions=$(echo "$allCompositions" | sed 's/[][0-9{}$^]//g')
 allCompositions=$(echo "$allCompositions" | sed 's/[？〾⿰⿻⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿿㇯⿾⿼⿽]//g')
