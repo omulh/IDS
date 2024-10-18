@@ -98037,19 +98037,19 @@ U+323AD	𲎭	^⿰竜㚅$(V)
 U+323AE	𲎮	^⿺龟斗$(G)
 U+323AF	𲎯	^⿱欪𠎤$(T)
 # CJK Radicals Supplement (115 characters)
-U+2E80	⺀	^⿱丶丶$()
+U+2E80	⺀	^⿱丶丶$(GHTJKPV)
 U+2E81	⺁	^𠂆$()	*U+2E81=U+20086
 U+2E82	⺂	^乛$()	*U+2E82=U+4E5B
 U+2E83	⺃	^乚$()	*U+2E83=U+4E5A
-U+2E84	⺄	^⺄$()
+U+2E84	⺄	^⺄$(GHMTJKPV)
 U+2E85	⺅	^亻$()	*U+2E85=U+4EBB
-U+2E86	⺆	^⿰丿𠃌$()
+U+2E86	⺆	^⿰丿𠃌$(GHMTJKPV)
 U+2E87	⺇	^𠘨$()	*U+2E87=U+20628
-U+2E88	⺈	^⿰㇒乛$()
+U+2E88	⺈	^⿰㇒乛$(GHTJKPV)
 U+2E89	⺉	^刂$()	*U+2E89=U+5202
-U+2E8A	⺊	^⿰丨一$()
+U+2E8A	⺊	^⿰丨一$(GHMTJKPV)
 U+2E8B	⺋	^㔾$()	*U+2E8B=U+353E
-U+2E8C	⺌	^⿲丶丨㇒$()
+U+2E8C	⺌	^⿲丶丨㇒$(GHTJKPV)
 U+2E8D	⺍	^𭕄$()	*U+2E8D=U+2D544
 U+2E8E	⺎	^兀$()	*U+2E8E=U+5140
 U+2E8F	⺏	^尣$()	*U+2E8F=U+5C23
@@ -98060,12 +98060,12 @@ U+2E93	⺓	^⿽𠃋厶$()	*U+2E93U+5E7A(GHT)
 U+2E94	⺔	^彑$()	*U+2E94=U+5F51
 U+2E95	⺕	^⿻{50}一$()
 U+2E96	⺖	^忄$()	*U+2E96=U+5FC4
-U+2E97	⺗	^⿰小丶$()	*U+2E07>U+38FA(J)
+U+2E97	⺗	^⿰小丶$(GHTJKPV)	*U+2E07>U+38FA(J)
 U+2E98	⺘	^扌$()	*U+2E98=U+624C
 U+2E99	⺙	^攵$()	*U+2E99=U+6535
 U+2E9B	⺛	^⿱一⿸⿻𠃋丿乚$()	*U+2E9B=U+65E1(GHTP)
 U+2E9C	⺜	^⿵{110}𠄠$()
-U+2E9D	⺝	^月$()	*U+2E9D>U+6708
+U+2E9D	⺝	^月$(GHTJKPV)	*U+2E9D>U+6708
 U+2E9E	⺞	^歺$()	*U+2E9E=U+6B7A
 U+2E9F	⺟	^母$()	*U+2E9F=U+6BCD
 U+2EA0	⺠	^民$()	*U+2EA0=U+6C11
@@ -98090,17 +98090,17 @@ U+2EB2	⺲	^⿴囗⿰丨丨$()
 U+2EB3	⺳	^㓁$()	*U+2EB3=U+34C1
 U+2EB4	⺴	^⿱冖儿$()
 U+2EB5	⺵	^⿵{110}⿰丨丨$()	*U+2EB5>U+2626B(H)
-U+2EB6	⺶	^⿱丷⿻三丿$()
+U+2EB6	⺶	^⿱丷⿻三丿$(GTPV)
 U+2EB7	⺷	^𦍌$()	*U+2EB7>U+2634C
 U+2EB8	⺸	^⿳⻀一十$()
 U+2EB9	⺹	^耂$()	*U+2EB9=U+8002
 U+2EBA	⺺	^肀$()	*U+2EBA=U+8080
-U+2EBB	⺻	^⿱肀一$()
-U+2EBC	⺼	^⿵⺆冫$()
+U+2EBB	⺻	^⿱肀一$(GTP)
+U+2EBC	⺼	^⿵⺆冫$(GHMTV)
 U+2EBD	⺽	^𦥑$()	*U+2EBD=U+26951
 U+2EBE	⺾	^⿻一⿰丨丨$()	*U+2EBE=U+8279(GJ)
 U+2EBF	⺿	^⿰十十$()	*U+2EBF=U+8279(HTK)
-U+2EC0	⻀	^⿰⿰一丨⿰丨一$()
+U+2EC0	⻀	^⿰⿰一丨⿰丨一$(T)
 U+2EC1	⻁	^⿸虍几$()	*U+2EC1=U+864E(GPV)
 U+2EC2	⻂	^衤$()	*U+2EC2=U+8864
 U+2EC3	⻃	^覀$()	*U+2EC3=U+8980
@@ -98153,164 +98153,164 @@ U+2EF1	⻱	^⿱㇒⿷⿹{90}{64}{65}$()	*U+2EF1=U+9F9C(G)
 U+2EF2	⻲	^亀$()	*U+2EF2=U+4E80
 U+2EF3	⻳	^龟$()	*U+2EF3=U+9F9F
 # CJK Strokes (36 Characters)
-U+31C0	㇀	^㇀$()
-U+31C1	㇁	^㇁$()
-U+31C2	㇂	^㇂$()
+U+31C0	㇀	^㇀$(GHMTJKPV)
+U+31C1	㇁	^㇁$(GHTJKPV)
+U+31C2	㇂	^㇂$(GHMTJKPV)
 U+31C3	㇃	^㇃$()
-U+31C4	㇄	^㇄$()
-U+31C5	㇅	^㇅$()
-U+31C6	㇆	^㇆$()	*U+31C6=U+200CC
-U+31C7	㇇	^㇇$()
-U+31C8	㇈	^㇈$()
-U+31C9	㇉	^㇉$()
-U+31CA	㇊	^㇊$()
-U+31CB	㇋	^㇋$()
-U+31CC	㇌	^㇌$()
+U+31C4	㇄	^㇄$(GHTJKPV)
+U+31C5	㇅	^㇅$(GHMTJKPV)
+U+31C6	㇆	^㇆$(GHMTJKPV)	*U+31C6=U+200CC
+U+31C7	㇇	^㇇$(GHTJKPV)
+U+31C8	㇈	^㇈$(GHTJKPV)
+U+31C9	㇉	^㇉$(GHTJKPV)
+U+31CA	㇊	^㇊$(GH)
+U+31CB	㇋	^㇋$(GHTJKPV)
+U+31CC	㇌	^㇌$(GHTJK)
 U+31CD	㇍	^㇍$()
-U+31CE	㇎	^㇎$()
-U+31CF	㇏	^㇏$()	*U+31CF=U+4E40
-U+31D0	㇐	^㇐$()	*U+31D0=U+4E00
-U+31D1	㇑	^㇑$()	*U+31D1=U+4E28
-U+31D2	㇒	^㇒$()
-U+31D3	㇓	^㇓$()	*U+31D3=U+4E3F
-U+31D4	㇔	^㇔$()	*U+31D4=U+4E36
-U+31D5	㇕	^㇕$()	*U+31D5=U+200CD
-U+31D6	㇖	^㇖$()	*U+31D6=U+4E5B
-U+31D7	㇗	^㇗$()	*U+31D7=U+200CA
-U+31D8	㇘	^㇘$()	*U+31D8=U+200CE
-U+31D9	㇙	^㇙$()	*U+31D9=U+2010C
-U+31DA	㇚	^㇚$()	*U+31DA=U+4E85
-U+31DB	㇛	^㇛$()	*U+31DB=U+21FE8
-U+31DC	㇜	^㇜$()	*U+31DC=U+200CB
-U+31DD	㇝	^㇝$()	*U+31DD=U+4E41
-U+31DE	㇞	^㇞$()	*U+31DE=U+200D1
-U+31DF	㇟	^㇟$()	*U+31DF=U+4E5A
-U+31E0	㇠	^㇠$()	*U+31E0=U+4E59
-U+31E1	㇡	^㇡$()	*U+31E1=U+2010E
-U+31E2	㇢	^㇢$()
-U+31E3	㇣	^㇣$()
+U+31CE	㇎	^㇎$(GHTJKP)
+U+31CF	㇏	^㇏$(GHTJKPV)	*U+31CF=U+4E40
+U+31D0	㇐	^㇐$(GHMTJKPV)	*U+31D0=U+4E00
+U+31D1	㇑	^㇑$(GHMTJKPV)	*U+31D1=U+4E28
+U+31D2	㇒	^㇒$(GHMTJKPV)
+U+31D3	㇓	^㇓$(GHMTJKPV)	*U+31D3=U+4E3F
+U+31D4	㇔	^㇔$(GHMTJKPV)	*U+31D4=U+4E36
+U+31D5	㇕	^㇕$(GHMTJKPV)	*U+31D5=U+200CD
+U+31D6	㇖	^㇖$(GHMTJKPV)	*U+31D6=U+4E5B
+U+31D7	㇗	^㇗$(GHMTJKPV)	*U+31D7=U+200CA
+U+31D8	㇘	^㇘$(GHTJKP)	*U+31D8=U+200CE
+U+31D9	㇙	^㇙$(GHTJKPV)	*U+31D9=U+2010C
+U+31DA	㇚	^㇚$(GHMTJKPV)	*U+31DA=U+4E85
+U+31DB	㇛	^㇛$(GHT)	*U+31DB=U+21FE8
+U+31DC	㇜	^㇜$(GHTJKPV)	*U+31DC=U+200CB
+U+31DD	㇝	^㇝$(GHTJKPV)	*U+31DD=U+4E41
+U+31DE	㇞	^㇞$(GHMTJKPV)	*U+31DE=U+200D1
+U+31DF	㇟	^㇟$(GHTJKPV)	*U+31DF=U+4E5A
+U+31E0	㇠	^㇠$(GHTJKPV)	*U+31E0=U+4E59
+U+31E1	㇡	^㇡$(GHTJKPV)	*U+31E1=U+2010E
+U+31E2	㇢	^㇢$(GJ)
+U+31E3	㇣	^㇣$(K)
 # Unencoded CJK Ideographs and Ideographic Components (121 Characters)
 # These characters exist in the Unicode's Private Use Area block (U+E000 - U+F8FF)
 # and are therefore only correctly displayed when using the BabelStone Han PUA font
-U+EC30		^⿻日乚$()
-U+ECE0		^⿴𠀃三$()
-U+ECE1		^⿱㇒⿸⿰丨𫜹二$()
-U+ECE2		^⿸⿰丨𫜹二$()
-U+ECE3		^⿱⿰丨⿱一𠄠一$()
-U+ECE4		^⿱⿰丨𠄟一$()
-U+ECE5		^⿱⿻口⿰丨丨一$
-U+ECE6		^⿱冖八$
-U+ECE7		^⿸厂{116}$()
-U+ECE9		^⿳亠丷冖$
-U+ECEA		^⿰丿乛$
-U+ECEB		^⿰丿⿱丶乛$
-U+ECEC		^⿲㇒丶丶$
-U+ECED		^⿳亠口冖$
-U+ECEE		^⿵𠆢一$
-U+ECEF		^⿻昌乚$
-U+ECF0		^⿴龷𠄠$()
-U+ECF1		^⿻尸一$
-U+ECF2		^⿻丅{95}$()
-U+ECF3		^⿺⿻㇂㇒丶$()
-U+ECF5		^⿻𦉫𠄠$
-U+ECF6		^⿼㇇丶$()
-U+ECF7		^⿻𰀪乀$()
-U+ECF8		^⿻㇇乀$()
-U+ECF9		^⿰夕{102}$()
-U+ECFA		^⿰{101}{103}$()
-U+ECFB		^⿰夕{103}$()
-U+ECFC		^⿰𠂈{103}$()
-U+ECFD		^⿵{110}𠃍$()
-U+ECFE		^⿻⿱㇒一丿$
-U+ECFF		^⿻{84}⿻工一$()
-U+EF31		^⿱一丨$()
-U+EF32		^⿵⿰⿱㇒丨𠃍一$()
-U+EF33		^⿵冂八$
-U+EF34		^⿱土八$
-U+EF35		^⿻𰀪⺀$
-U+EF36		^⿻{50}⿰丨丨$()
-U+EF37		^⿺𠃊⺊$
-U+F0CF		^⿱⺈𫩏$
-U+F101		^⿰𱼀{103}$()
-U+F13C		^⿹勹灬$()
-U+F13D		^⿻⿻⿱二一⿰丨丨十$()
-U+F29E		^⿰丨𠃍$()
-U+F29F		^⿸⿰丿⿱⺊乛$
-U+F2A4		^⿻{50}一$()
-U+F2A5		^⿹⿺㇉一灬$
-U+F2A7		^⿱⺈⿵{110}人$
-U+F2A8		^⿹㇈⿻丿丶$
-U+F2A9		^⿸⿰丨{50}二$()
-U+F2AA		^⿻⿸⿱㇒丨𠄠㇀$()
-U+F2AB		^⿻⿱㇒一乚$
-U+F2AC		^⿱⿰㇒乛丨$
-U+F2AD		^⿰⿱丶㇀⿱㇒丶$
-U+F2AE		^⿳⿺𠃑一一⿺乚三$()
-U+F2B0		^⿱𠃍一$()
-U+F2B1		^⿷𱍸㇒$
-U+F2B2		^⿹勹丿$
-U+F2B3		^⿱丶⿻⿺𠄌𫜹丶$()
-U+F2B4		^⿻⿺𠄌𫜹丶$()
-U+F2B5		^⿻⿻日丿乀$()
-U+F2B6		^⿱⺊冖$
-U+F2B9		^⿱𰀉冖$
-U+F2BA		^⿱亠⿲刀丫𱍸$()
-U+F2BB		^⿱𠃋𠃋$()
-U+F2BC		^⿽弋一$
-U+F2BD		^⿻弋𢆶$
-U+F2BF		^⿴囗⿻𰀪丶$
-U+F2C1		^⿲丨㇅⿰丨𠃌$()
-U+F2C3		^⿻几𠄠$
-U+F2C4		^⿳丆⿵{110}𠄠冖$()
-U+F2C6		^⿻𦉫𠄠$
-U+F2C7		^⿱㇒𠄌$()
-U+F2C8		^⿱一⿰⿱𠃎𠃑⿱𠃑{111}$()
-U+F2C9		^⿱十冖$
-U+F2CA		^⿷⿻⿱㇒𫜹㇉一$()
-U+F2CB		^⿷⿱一㇉⿻丨𠄠$()
-U+F2CC		^⿻弓⿱{50}匚$()
-U+F2CD		^⿻{39}丶$()
-U+F2CE		^⿱𠂇丨$()
-U+F2CF		^⿳𠂉卌一$()
-U+F2D0		^⿸广{116}$()
-U+F2D1		^⿱⿲𠃊丨⿺⺊丨一$()
-U+F2D2		^⿰丨丿$
-U+F2D4		^⿼{14}一$()
-U+F2E3		^⿱𦘒一$
-U+F2E5		^⿻己⿱工工$
-U+F2E6		^⿺㇉一$
-U+F2E7		^⿱㇒⿴⿱𠃌㇉丶$()
-U+F2E8		^⿻𠃍㇉$()
-U+F2E9		^⿹⿺𠃑一丨$()
-U+F2F2		^⿻㇒乀$()
-U+F2F4		^⿰𠄌{24}$()
-U+F2F5		^⿻𠃋㇇$()
-U+F2F7		^⿲丨𠄠丨$
-U+F2FA		^⿷⿻⿱㇒{50}㇉一$()
-U+F313		^⿱⿻⿰丨丨丷冖$
-U+F314		^⿱{43}{43}$()
-U+F318		^⿼{50}㐅$()
-U+F319		^⿱𠃍一$()
-U+F31A		^⿲⿺𠄌⺀⿺𠄌⺀㇂$
-U+F31B		^⿻⿻⿼⿻{65}丶丶丶丶$()
-U+F3BE		^⿱㇇乁$
-U+F4F3		^⿻一⿻虫一$()
-U+F5DE		^⿻一曲$
-U+F5DF		^⿱⺈罒$
-U+F5E1		^⿱⿰⿱𠃎𠃑⿱𠃑{111}一$()
-U+F5E3		^⿴⿱⿰丨𠃍一丶$()
-U+F5EE		^⿻⿻丿⺄丶$()
-U+F5F0		^⿻⿻厂⿱𠃊丆{97}$()
-U+F5F4		^⿻⿻口丷土$()
-U+F5F5		^⿻⿱亠丷戈$()
-U+F5F6		^⿱⺈⿹⿻{110}⿰一⿺乚⺊{64}$()
-U+F5F7		^⿹⿱{2}乚{64}$()
-U+F5F8		^⿳{110}⿰一一⿺乚丨$()
-U+F5F9		^⿻{110}⿰一⿺乚⺊$()
-U+F5FA		^⿻口乚$()
-U+F5FB		^⿹⿰一丨㇀$()
-U+F5FC		^⿻⿱一丨十$()
-U+F5FD		^⿱⿻𠮛⿰丨丨冖$
-U+F5FE		^⿸⿱㇒丨𠄠$()
-U+F5FF		^⿷⿱㇒𠄌一$()
+U+EC30		^⿻日乚$(GHTJKPV)
+U+ECE0		^⿴𠀃三$(GHMTJKPV)
+U+ECE1		^⿱㇒⿸⿰丨𫜹二$(TJKP)
+U+ECE2		^⿸⿰丨𫜹二$(HTJKPV)
+U+ECE3		^⿱⿰丨⿱一𠄠一$(GHTJKPV)
+U+ECE4		^⿱⿰丨𠄟一$(GTJ)
+U+ECE5		^⿱⿻口⿰丨丨一$(GTJP)
+U+ECE6		^⿱冖八$(GT)
+U+ECE7		^⿸厂{116}$(GTJP)
+U+ECE9		^⿳亠丷冖$(GHTJKPV)
+U+ECEA		^⿰丿乛$(GHTJKPV)
+U+ECEB		^⿰丿⿱丶乛$(HT)
+U+ECEC		^⿲㇒丶丶$(GTJKPV)
+U+ECED		^⿳亠口冖$(GHTJKPV)
+U+ECEE		^⿵𠆢一$(GHMTJKPV)
+U+ECEF		^⿻昌乚$(GHTJKP)
+U+ECF0		^⿴龷𠄠$(GHTJKPV)
+U+ECF1		^⿻尸一$(GHTJKPV)
+U+ECF2		^⿻丅{95}$(TJ)
+U+ECF3		^⿺⿻㇂㇒丶$(GHMTJKPV)
+U+ECF5		^⿻𦉫𠄠$(GTP)
+U+ECF6		^⿼㇇丶$(GHTJKP)
+U+ECF7		^⿻𰀪乀$(GHTJKP)
+U+ECF8		^⿻㇇乀$(GHTJKPV)
+U+ECF9		^⿰夕{102}$(GTJ)
+U+ECFA		^⿰{101}{103}$(GTK)
+U+ECFB		^⿰夕{103}$(GTK)
+U+ECFC		^⿰𠂈{103}$(T)
+U+ECFD		^⿵{110}𠃍$(GV)
+U+ECFE		^⿻⿱㇒一丿$(GHTJKP)
+U+ECFF		^⿻{84}⿻工一$(GTK)
+U+EF31		^⿱一丨$(GHTJKPV)
+U+EF32		^⿵⿰⿱㇒丨𠃍一$(GHTJKPV)
+U+EF33		^⿵冂八$(GHTJKPV)
+U+EF34		^⿱土八$(GHTJKV)
+U+EF35		^⿻𰀪⺀$(GT)
+U+EF36		^⿻{50}⿰丨丨$(GHTJKPV)
+U+EF37		^⿺𠃊⺊$(GTJKPV)
+U+F0CF		^⿱⺈𫩏$(GHTJKPV)
+U+F101		^⿰𱼀{103}$(GHTJKPV)
+U+F13C		^⿹勹灬$(GHTJKP)
+U+F13D		^⿻⿻⿱二一⿰丨丨十$(GHTJKPV)
+U+F29E		^⿰丨𠃍$(GHTJKPV)
+U+F29F		^⿸⿰丿⿱⺊乛$(GHTJKPV)
+U+F2A4		^⿻{50}一$(GHMTJKPV)
+U+F2A5		^⿹⿺㇉一灬$(GHTJKPV)
+U+F2A7		^⿱⺈⿵{110}人$(GHTJKPV)
+U+F2A8		^⿹㇈⿻丿丶$(HTJP)
+U+F2A9		^⿸⿰丨{50}二$(GHTJK)
+U+F2AA		^⿻⿸⿱㇒丨𠄠㇀$(GHTJKPV)
+U+F2AB		^⿻⿱㇒一乚$(GHTKP)
+U+F2AC		^⿱⿰㇒乛丨$(V)
+U+F2AD		^⿰⿱丶㇀⿱㇒丶$(GHMTJKPV)
+U+F2AE		^⿳⿺𠃑一一⿺乚三$(GHTJKPV)
+U+F2B0		^⿱𠃍一$(GHMTJKPV)
+U+F2B1		^⿷𱍸㇒$(GHTJKPV)
+U+F2B2		^⿹勹丿$(GTJKV)
+U+F2B3		^⿱丶⿻⿺𠄌𫜹丶$(GHTJKPV)
+U+F2B4		^⿻⿺𠄌𫜹丶$(GHMTJKPV)
+U+F2B5		^⿻⿻日丿乀$(GHTJKPV)
+U+F2B6		^⿱⺊冖$(GHTJKP)
+U+F2B9		^⿱𰀉冖$(GHTJKPV)
+U+F2BA		^⿱亠⿲刀丫𱍸$(GHTJKPV)
+U+F2BB		^⿱𠃋𠃋$(GT)
+U+F2BC		^⿽弋一$(GHMTJKPV)
+U+F2BD		^⿻弋𢆶$(GHTJKPV)
+U+F2BF		^⿴囗⿻𰀪丶$(GHTJ)
+U+F2C1		^⿲丨㇅⿰丨𠃌$(GHMTJKPV)
+U+F2C3		^⿻几𠄠$(GV)
+U+F2C4		^⿳丆⿵{110}𠄠冖$(GHTJKPV)
+U+F2C6		^⿻𦉫𠄠$(GHTJKP)
+U+F2C7		^⿱㇒𠄌$(GHTJKPV)
+U+F2C8		^⿱一⿰⿱𠃎𠃑⿱𠃑{111}$(GHTJKPV)
+U+F2C9		^⿱十冖$(GHTJKPV)
+U+F2CA		^⿷⿻⿱㇒𫜹㇉一$(GHTJKPV)
+U+F2CB		^⿷⿱一㇉⿻丨𠄠$(GHTJKPV)
+U+F2CC		^⿻弓⿱{50}匚$(GT)
+U+F2CD		^⿻{39}丶$(GHTJKPV)
+U+F2CE		^⿱𠂇丨$(GHTJKPV)
+U+F2CF		^⿳𠂉卌一$(GHTJKPV)
+U+F2D0		^⿸广{116}$(GHTJKPV)
+U+F2D1		^⿱⿲𠃊丨⿺⺊丨一$(GHTJKP)
+U+F2D2		^⿰丨丿$(GTJKPV)
+U+F2D4		^⿼{14}一$(GMTJPV)
+U+F2E3		^⿱𦘒一$(GHMTJKPV)
+U+F2E5		^⿻己⿱工工$(GT)
+U+F2E6		^⿺㇉一$(GHTJKV)
+U+F2E7		^⿱㇒⿴⿱𠃌㇉丶$(GH)
+U+F2E8		^⿻𠃍㇉$(GH)
+U+F2E9		^⿹⿺𠃑一丨$(GHTJKPV)
+U+F2F2		^⿻㇒乀$(GHTJKPV)
+U+F2F4		^⿰𠄌{24}$(GHTJKPV)
+U+F2F5		^⿻𠃋㇇$(GHTJKP)
+U+F2F7		^⿲丨𠄠丨$(GHMTJP)
+U+F2FA		^⿷⿻⿱㇒{50}㇉一$(GHTJKPV)
+U+F313		^⿱⿻⿰丨丨丷冖$(GTJ)
+U+F314		^⿱{43}{43}$(GHTJKPV)
+U+F318		^⿼{50}㐅$(GHTJKPV)
+U+F319		^⿱𠃍一$(GHMTJKPV)
+U+F31A		^⿲⿺𠄌⺀⿺𠄌⺀㇂$(GHTJKPV)
+U+F31B		^⿻⿻⿼⿻{65}丶丶丶丶$(GT)
+U+F3BE		^⿱㇇乁$(GHT)
+U+F4F3		^⿻一⿻虫一$(GHTJKPV)
+U+F5DE		^⿻一曲$(GHTJKPV)
+U+F5DF		^⿱⺈罒$(GTJV)
+U+F5E1		^⿱⿰⿱𠃎𠃑⿱𠃑{111}一$(GHTJKP)
+U+F5E3		^⿴⿱⿰丨𠃍一丶$(GHTJKPV)
+U+F5EE		^⿻⿻丿⺄丶$(GHMTJKP)
+U+F5F0		^⿻⿻厂⿱𠃊丆{97}$(GHTJKPV)
+U+F5F4		^⿻⿻口丷土$(GHMTJKPV)
+U+F5F5		^⿻⿱亠丷戈$(GTKP)
+U+F5F6		^⿱⺈⿹⿻{110}⿰一⿺乚⺊{64}$(GTV)
+U+F5F7		^⿹⿱{2}乚{64}$(GTP)
+U+F5F8		^⿳{110}⿰一一⿺乚丨$(GTV)
+U+F5F9		^⿻{110}⿰一⿺乚⺊$(GHTJKP)
+U+F5FA		^⿻口乚$(GTJKV)
+U+F5FB		^⿹⿰一丨㇀$(GHTJKPV)
+U+F5FC		^⿻⿱一丨十$(GHTJKPV)
+U+F5FD		^⿱⿻𠮛⿰丨丨冖$(GTK)
+U+F5FE		^⿸⿱㇒丨𠄠$(GHTJKP)
+U+F5FF		^⿷⿱㇒𠄌一$(GHTPV)
 # END
