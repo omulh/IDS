@@ -27,7 +27,7 @@ allCompositions=$(echo "$allCompositions" | sed "s/\t/\n/g")
 allCompositions=$(echo "$allCompositions" | sed '/^$/d')
 
 # Remove non-CJK characters from the compositions, excepting the source letters
-allCompositions=$(echo "$allCompositions" | sed 's/[][0-9{}$^]//g')
+allCompositions=$(echo "$allCompositions" | sed 's/[][$^]//g')
 allCompositions=$(echo "$allCompositions" | sed 's/[？〾⿰⿻⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿿㇯⿾⿼⿽]//g')
 
 # Extract every component used in a composition
@@ -38,6 +38,44 @@ allComponents=$(echo "$allComponents" | sed "s/./&\n/g")
 allComponents=$(echo "$allComponents" | sed '/^$/d')
 # Remove the duplicates
 allComponents=$(echo "$allComponents" | LC_ALL=C sort -u)
+
+# For every unencoded component
+for i in $(seq 1 122); do
+    # Output a progress status to the stderr stream
+    echo -ne "\r\033[0KProcessing unencoded comp. $i/122" >&2
+
+    # Get the char. of the unencoded component
+    unencodedChar=$(grep -m 1 -P "#\t\{$i\}" "$IDS_FILE" | sed "s/.*\t//")
+
+    # Check if the char. has its own entry in the database
+    charEntry=$(grep -P "\t$unencodedChar\t" "$IDS_FILE")
+    if [[ -n $charEntry ]]; then
+        # Get all the letters used in the IDSs for the tested component
+        charEntryLetters=$(echo "$charEntry" | sed 's/[^^]*^//' | sed "s/\t\*.*//")
+        charEntryLetters=$(echo "$charEntryLetters" | sed 's/[^A-Z]//g')
+
+        # For every passed letter
+        error=false
+        missingLetters=''
+        for testedLetter in $TESTED_LETTERS; do
+            # If the char. is used in a composition that has that letter
+            if [[ -n $(echo "$allCompositions" | grep -m 1 "{$i}.*$testedLetter") ]]; then
+                # Check if the letter is absent in the character's entry
+                if [[ $charEntryLetters != *"$testedLetter"* ]]; then
+                    missingLetters+="$testedLetter"
+                    error=true
+                fi
+            fi
+        done
+
+        # Output feedback if there was an error
+        if [[ $error == true ]]; then
+            [ -t 1 ] && echo -en "\r\033[0K"
+            echo -e "$unencodedChar is missing:\t$missingLetters"
+        fi
+    fi
+done
+echo -e "\r\033[0KProcessing unencoded comps. done" >&2
 
 # For every character used as a component
 lineCount=$(echo "$allComponents" | wc -l)
@@ -75,4 +113,4 @@ while read testedChar; do
     fi
     ((processCount++))
 done < <(echo "$allComponents")
-echo -e "\r\033[0KProcessing done" >&2
+echo -e "\r\033[0KProcessing chars. done" >&2
