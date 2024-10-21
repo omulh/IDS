@@ -26,13 +26,10 @@ allCompositions=$(echo "$allCompositions" | sed "s/^[^^]*\t^/^/")
 allCompositions=$(echo "$allCompositions" | sed "s/\t/\n/g")
 allCompositions=$(echo "$allCompositions" | sed '/^$/d')
 
-# Remove non-CJK characters from the compositions, excepting the source letters
-allCompositions=$(echo "$allCompositions" | sed 's/[][$^]//g')
-allCompositions=$(echo "$allCompositions" | sed 's/[？〾⿰⿻⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿿㇯⿾⿼⿽]//g')
-
 # Extract every component used in a composition
 # Remove every non-CJK character from the compositions
-allComponents=$(echo "$allCompositions" | sed 's/[A-Z()]//g')
+allComponents=$(echo "$allCompositions" | sed 's/[][$^A-Z()]//g')
+allComponents=$(echo "$allComponents" | sed 's/[？〾⿰⿻⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿿㇯⿾⿼⿽]//g')
 # Arrange everything to one character per line
 allComponents=$(echo "$allComponents" | sed "s/./&\n/g")
 allComponents=$(echo "$allComponents" | sed '/^$/d')
@@ -57,11 +54,17 @@ for i in $(seq 1 122); do
         # For every passed letter
         error=false
         missingLetters=''
+        exampleEntries=''
         for testedLetter in $TESTED_LETTERS; do
             # If the char. is used in a composition that has that letter
-            if [[ -n $(echo "$allCompositions" | grep -m 1 "{$i}.*$testedLetter") ]]; then
+            compositionWithTestedLetter=$(echo "$allCompositions" | grep -m 1 "{$i}.*$testedLetter")
+            if [[ -n $compositionWithTestedLetter ]]; then
                 # Check if the letter is absent in the character's entry
                 if [[ $charEntryLetters != *"$testedLetter"* ]]; then
+                    compositionWithTestedLetter="${compositionWithTestedLetter//$/\\$}"
+                    compositionWithTestedLetter="${compositionWithTestedLetter//^/\\^}"
+                    compositionEntry=$(grep -m 1 "$compositionWithTestedLetter" "$IDS_FILE")
+                    exampleEntries+="\t$testedLetter: $compositionEntry\n"
                     missingLetters+="$testedLetter"
                     error=true
                 fi
@@ -72,6 +75,7 @@ for i in $(seq 1 122); do
         if [[ $error == true ]]; then
             [ -t 1 ] && echo -en "\r\033[0K"
             echo -e "$unencodedChar is missing:\t$missingLetters"
+            echo -e "$exampleEntries"
         fi
     fi
 done
@@ -94,11 +98,17 @@ while read testedChar; do
         # For every passed letter
         error=false
         missingLetters=''
+        exampleEntries=''
         for testedLetter in $TESTED_LETTERS; do
             # If the char. is used in a composition that has that letter
-            if [[ -n $(echo "$allCompositions" | grep -m 1 "$testedChar.*$testedLetter") ]]; then
+            compositionWithTestedLetter=$(echo "$allCompositions" | grep -m 1 "$testedChar.*$testedLetter")
+            if [[ -n $compositionWithTestedLetter ]]; then
                 # Check if the letter is absent in the character's entry
                 if [[ $charEntryLetters != *"$testedLetter"* ]]; then
+                    compositionWithTestedLetter="${compositionWithTestedLetter//$/\\$}"
+                    compositionWithTestedLetter="${compositionWithTestedLetter//^/\\^}"
+                    compositionEntry=$(grep -m 1 "$compositionWithTestedLetter" "$IDS_FILE")
+                    exampleEntries+="\t$testedLetter: $compositionEntry\n"
                     missingLetters+="$testedLetter"
                     error=true
                 fi
@@ -109,6 +119,7 @@ while read testedChar; do
         if [[ $error == true ]]; then
             [ -t 1 ] && echo -en "\r\033[0K"
             echo -e "$testedChar is missing:\t$missingLetters"
+            echo -e "$exampleEntries"
         fi
     fi
     ((processCount++))
